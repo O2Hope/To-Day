@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Today.Views.Items">
+	<StackLayout VerticalOptions="Center">
+
+            <Entry x:Name="tareaEntry"
+            Placeholder="Tarea"
+            HorizontalTextAlignment="Center"
+            Margin="20"
+            VerticalOptions="End"
+            Text="{Binding Tarea}"/>
+
+
+        <Button x:Name="btnGuardar"
+            Text="Guardar"
+            Clicked="Handle_Clicked"
+            Margin="20,0"
+        />
+            
+
+
+    </StackLayout>
+
+
+        
+</ContentPage>

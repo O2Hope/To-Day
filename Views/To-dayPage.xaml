@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Today" x:Class="Today.Views.To_dayPage">
+    <StackLayout VerticalOptions="Center" Margin="20">
+        <Entry x:Name="usuarioEntry" Placeholder="Usuario"/>
+        <Entry x:Name="passwordEntry" Placeholder="Password"/>
+        <Button x:Name="btnIniciar" Text="Iniciar Sesion" Clicked="Handle_Clicked"/>
+    </StackLayout>
+</ContentPage>
